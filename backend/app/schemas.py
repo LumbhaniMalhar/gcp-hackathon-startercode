@@ -25,5 +25,6 @@ class Claim(BaseModel):
 
 class AnalysisResponse(BaseModel):
     document_title: Optional[str] = None
-    claims: List[Claim]
+    claims: List[Claim] = []
+    analysis_markdown: Optional[str] = None
 

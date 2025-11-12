@@ -15,6 +15,7 @@ export interface Claim {
 
 export interface AnalysisResponse {
   document_title?: string;
-  claims: Claim[];
+  claims?: Claim[];
+  analysis_markdown?: string;
 }
 
