@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+
+# Mac / IDE
+.DS_Store
+.idea/
+.vscode/
+
+<<<<<<< HEAD
+Archive.zip
+us-con-gcp-sbx-0001190-100925-9af95289c4c7.json
+=======
+>>>>>>> 2a51baf (first commit)
